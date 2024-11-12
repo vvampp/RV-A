@@ -1,0 +1,42 @@
+# Ignorar carpetas generadas por Unity en todos los proyectos
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Ll]ogs/
+**/[Mm]emoryCaptures/
+
+# Configuración de Unity específica de la máquina
+**/UserSettings/
+
+# Cache de paquetes en cada proyecto, pero manteniendo archivos esenciales
+**/[Pp]ackages/*/
+!**/Packages/manifest.json
+!**/Packages/packages-lock.json
+
+# Ignorar la carpeta de la Asset Store en cada proyecto
+**/Assets/AssetStoreTools*
+
+# Configuraciones y archivos de IDE en todos los proyectos
+**/.vscode/
+**/.vs/
+**/.idea/
+**/*.csproj
+**/*.sln
+**/*.user
+**/*.userprefs
+**/*.pidb
+**/*.booproj
+**/*.pdb
+**/*.mdb
+
+# Ignorar archivos de configuración de builds y de plataformas
+**/Builds/
+**/*.apk
+**/*.aab
+**/*.ipa
+**/*.xcuserdatad
+**/*.xcuserdata
+**/*.xcworkspace
+**/*.pbxproj
+
