@@ -6,7 +6,7 @@ using OVR;
 public class PlayerMovement : MonoBehaviour
 {
     public Transform playerTransform;  
-    public float movementSpeed = 1.0f; 
+    public float movementSpeed = 2.5f; 
 
     void Update()
     {
